@@ -5,7 +5,7 @@ class App extends Component{
   state = {
     search: ''
   };
-  handleChange = (e) => this.setState({search: e.target.value});
+  handleChange = (e) => this.setState({search: e.target.value.toLowerCase()});
   render(){
     const {search} = this.state;
 

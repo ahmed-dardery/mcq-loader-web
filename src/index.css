@@ -76,6 +76,40 @@ header svg {
 }
 
 /*------------------------------------------------------------------------------------*/
+.container-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px ;
+  transition-duration: 0.2s;
+  border: 2px solid;
+}
+.button.reset{
+  background-color: #00a1ff;
+  border-color: #00a1ff;
+}
+.button.correct{
+  background-color: #03c603;
+  border-color: #03c603;
+}
+.button:hover{
+  background-color: #ffffff;
+}
+.button.correct:hover{
+  color: #03c603;
+}
+.button.reset:hover{
+  color: #00a1ff;
+}
 
 #questions {
   padding: 40px 0 20px;

@@ -1,40 +1,29 @@
 import React, {Component} from 'react';
 
-import {shuffleArray} from './Utils';
-
 class QuestionBox extends Component{
-    trigger(idx){
-        if(this.state.answered !== -1) return;
-        this.setState({answered: idx, good: (idx === this.state.correct)?1:0});
-    }
-    state = {
-        options: [],
-        correct: -1,
-        answered: -1,
-        good: -1
-    };
-    componentDidMount() {
-
-        const {question} = this.props;
-        if(!question.options){
-            this.setState({options: ['True', 'False'], correct: question.ans?0:1});
-        }else{
-            let temp = shuffleArray(question.options.slice(1));
-            const idx = Math.floor(Math.random() * (question.options.length));
-            temp.splice(idx, 0, question.options[0]);
-            this.setState({options: temp, correct:idx});
-        }
-    }
-
     render(){
-        const {question,displayed} = this.props;
-        const {answered, options, good,correct} = this.state;
-        const extraClass = good===-1?"":good===1?"question-good":"question-bad";
+        const {qidx, onTrigger, question} = this.props;
+        const good = question.answerIdx === null? null : question.answerIdx === question.correct;
+
+        const extraClassBox = good === null?"":good?" question-good":" question-bad";
+
+        const extraClassRadio = i=>{
+            let ans = "";
+            if(good !== null){
+                ans+="finish";
+                if(question.answerIdx === i)
+                    ans+= " selected";
+                if(question.correct === i)
+                    ans+=" correct";
+            }
+            return ans;
+        };
+
         return (
-            <div className={"question-box " + extraClass + " " + (!displayed&&"hidden")}>
+            <div className={"question-box" + extraClassBox}>
                 <h2 className="question">{question.text}</h2>
-                {options.map((v,i)=> <div key={i} onClick={()=>this.trigger(i)}>
-                    <input className={(answered!==-1&&"finish") + " " + (answered===i&&"selected") + " " + (answered!==-1&&i===correct&&"correct")} disabled={answered !== -1} type="radio"/>
+                {question.options.map((v,i)=> <div key={i} onClick={()=>onTrigger(qidx, i)}>
+                    <input className={extraClassRadio(i)} disabled={good !== null} type="radio"/>
                     <span>{v}</span>
                 </div>)
                 }
