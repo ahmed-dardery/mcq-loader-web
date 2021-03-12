@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mcq-loader-web/static/css/main.0427a6be.chunk.css",
+    "main.js": "/mcq-loader-web/static/js/main.783bf5c1.chunk.js",
+    "main.js.map": "/mcq-loader-web/static/js/main.783bf5c1.chunk.js.map",
+    "runtime-main.js": "/mcq-loader-web/static/js/runtime-main.9dda774f.js",
+    "runtime-main.js.map": "/mcq-loader-web/static/js/runtime-main.9dda774f.js.map",
+    "static/js/2.db0d0fe6.chunk.js": "/mcq-loader-web/static/js/2.db0d0fe6.chunk.js",
+    "static/js/2.db0d0fe6.chunk.js.map": "/mcq-loader-web/static/js/2.db0d0fe6.chunk.js.map",
+    "static/js/3.b353fa47.chunk.js": "/mcq-loader-web/static/js/3.b353fa47.chunk.js",
+    "static/js/3.b353fa47.chunk.js.map": "/mcq-loader-web/static/js/3.b353fa47.chunk.js.map",
+    "index.html": "/mcq-loader-web/index.html",
+    "static/css/main.0427a6be.chunk.css.map": "/mcq-loader-web/static/css/main.0427a6be.chunk.css.map",
+    "static/js/2.db0d0fe6.chunk.js.LICENSE.txt": "/mcq-loader-web/static/js/2.db0d0fe6.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/mcq-loader-web/static/media/Ubuntu.fbdecfce.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9dda774f.js",
+    "static/js/2.db0d0fe6.chunk.js",
+    "static/css/main.0427a6be.chunk.css",
+    "static/js/main.783bf5c1.chunk.js"
+  ]
+}
