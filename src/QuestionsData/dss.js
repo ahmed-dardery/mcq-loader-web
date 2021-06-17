@@ -1,4 +1,4 @@
-const questions = [
+const dss = [
     {
         text: "What would be the principal contribution of DSS to information technology?",
         options: ["The inclusion of a model base and its management system",
@@ -542,4 +542,4 @@ const questions = [
     }
 ];
 
-export default questions;
+export default dss;

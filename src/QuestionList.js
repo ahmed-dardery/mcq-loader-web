@@ -1,4 +1,3 @@
-import QuestionsData from './QuestionsData'
 import QuestionBox from './QuestionBox';
 
 import React, {Component} from 'react';
@@ -22,17 +21,22 @@ class QuestionList extends Component{
         data: null
     };
 
-    componentDidMount() {
-        const arr = shuffleArray(QuestionsData);
+    componentDidUpdate(prevProps, prevState) {
+        if(prevProps !== this.props)
+            this.resetAllQuestions();
+    }
 
-        this.setState({data: arr.map(question=>shuffle(question))});
+    componentDidMount() {
+        this.resetAllQuestions();
     }
 
     removeCorrect(){
         this.setState(({data})=>({data: shuffleArray(data.filter(q=>q.answerIdx!==q.correct).map(q=>shuffle(q)))}));
     }
     resetAllQuestions(){
-        this.componentDidMount();
+        const arr = shuffleArray(this.props.questionsData);
+
+        this.setState({data: arr.map(question=>shuffle(question))});
     }
     render(){
         const onTrigger = (questionIdx, answerIdx)=> {
