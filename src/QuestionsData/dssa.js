@@ -617,19 +617,19 @@ const dssa = [
         text: "The coefficient of determination resulting from a particular regression analysis was 0.85. What was the correlation coefficient, assuming a positive linear relationship?",
         options: [
             "0.922",
-            "None of the options" +
-            "0.5" +
-            "-0.5" +
-            "There is insufficient information to answer the question.\n"
+            "None of the options" ,
+            "0.5" ,
+            "-0.5" ,
+            "There is insufficient information to answer the question."
         ]
     },
     {
         text: "Which of the following statements is true about r^2?",
         options: [
-            "It is also called the coefficient of determination.\n" +
-            "It ranges in value from -1 to + 1.\n" +
-            "It represents the percent of variation in X that is explained by Y.\n" +
-            "It represents the percent of variation in the error that is explained by Y.\n" +
+            "It is also called the coefficient of determination." ,
+            "It ranges in value from -1 to + 1." ,
+            "It represents the percent of variation in X that is explained by Y." ,
+            "It represents the percent of variation in the error that is explained by Y." ,
             "It is also called the coefficient of correlation.",
             "All of the options"
         ]
