@@ -11,9 +11,9 @@ const dssa = [
     {
         text: "Quantitative analysis is",
         options: [
+            "a scientific approach to decision making",
             "a logical approach to decision making",
             "a rational approach to decision making",
-            "a scientific approach to decision making",
             "all of the above"
         ]
     },
@@ -172,8 +172,8 @@ const dssa = [
     {
         text: "The minimum expected opportunity loss",
         options: [
-            "is greater than the expected value with perfect information.",
             "is equal to the expected value of perfect information.",
+            "is greater than the expected value with perfect information.",
             "is equal to the highest expected payoff.",
             "is computed when finding the minimax regret decision."
         ]
@@ -325,9 +325,9 @@ const dssa = [
     {
         text: "The percentage of the variation in the dependent variable that is explained by a regression equation is measured by",
         options: [
+            "the coefficient of determination.",
             "the coefficient of correlation.",
             "the MSE.",
-            "the coefficient of determination.",
             "the slope."
         ]
     },
