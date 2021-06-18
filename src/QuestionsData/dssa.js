@@ -379,8 +379,8 @@ const dssa = [
     {
         text: "A new variable should not be added to a multiple regression model if that variable causes",
         options: [
-            "r2 to decrease.",
             "the adjusted r2 to decrease.",
+            "r2 to decrease.",
             "the SST to decrease.",
             "the intercept to decrease."
         ]
@@ -637,8 +637,8 @@ const dssa = [
     {
         text: "The initial start-up cost is $350,000. The college plans to charge tuition of $18,000 per student per year. However, the university administration will charge the college $12,000 per student for the first 100 students enrolled each year for administrative costs and its share of the tuition payments. Which of the following is not true",
         options: [
-            "It's advisable for the college to increase tuition to $24,000 even if that reduces enrollment to 35",
-            "The college needs 59 students to enroll in the first year to break-even",
+            "It's advisable for the college to increase tuition to $24,000 even if that reduces enrollment from 75 to 35",
+            "The college needs approximately 59 students to enroll in the first year to break-even",
             "If 75 students enrolled, the profit is $100,000",
             "All of the options are true",
             "All of the options are false"
