@@ -112,7 +112,7 @@ header svg {
 }
 
 #questions {
-  padding: 20px 0 20px;
+  padding: 0 0 0px;
   min-height: calc(100vh - 200px);
 }
 
@@ -178,6 +178,12 @@ header svg {
   border-left-color: #03c603;
 }
 
+.question-count{
+  font-weight: 500;
+  font-family: Ubuntu, serif;
+  text-align: right;
+  padding-bottom:10px;
+}
 .color-input::before {background-color: #00a1ff !important;}
 
 .finish::before {background-color: #e8e8e8 !important;}
