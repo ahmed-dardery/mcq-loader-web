@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import {shuffleArray} from './Utils';
 
 function shuffle(question){
-    if(!question.options){
+    if(question.ans != null){
         return {...question, options: ['True', 'False'], correct: question.ans?0:1, answerIdx:null};
     }else{
         const correct = question.correct || 0;

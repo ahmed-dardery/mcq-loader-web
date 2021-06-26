@@ -3,7 +3,8 @@ import React, {Component} from 'react';
 class QuestionBox extends Component{
     render(){
         const {qidx, onTrigger, question} = this.props;
-        const good = question.answerIdx === null? null : question.answerIdx === question.correct;
+        let good = null;
+        if(question.answerIdx !== null) good = question.answerIdx === question.correct;
 
         const extraClassBox = good === null?"":good?" question-good":" question-bad";
 

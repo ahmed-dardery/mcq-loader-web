@@ -617,19 +617,39 @@ const dssa = [
         text: "The coefficient of determination resulting from a particular regression analysis was 0.85. What was the correlation coefficient, assuming a positive linear relationship?",
         options: [
             "0.922",
-            "None of the options" ,
-            "0.5" ,
-            "-0.5" ,
+            "None of the options",
+            "0.5",
+            "-0.5",
             "There is insufficient information to answer the question."
+        ]
+    },
+    {
+        text: "The coefficient of determination resulting from a particular regression analysis was 0.85. What was the correlation coefficient",
+        options: [
+            "There is insufficient information to answer the question.",
+            "0.922",
+            "None of the options",
+            "0.5",
+            "-0.5"
+        ]
+    },
+    {
+        text: "The random error in a regression equation:",
+        options: [
+            "includes both positive and negative terms.",
+            "is the predicted error.",
+            "is maximized in a least squares regression model.",
+            "will sum to a large positive number.",
+            "is used the estimate the accuracy of the slope."
         ]
     },
     {
         text: "Which of the following statements is true about r^2?",
         options: [
-            "It is also called the coefficient of determination." ,
-            "It ranges in value from -1 to + 1." ,
-            "It represents the percent of variation in X that is explained by Y." ,
-            "It represents the percent of variation in the error that is explained by Y." ,
+            "It is also called the coefficient of determination.",
+            "It ranges in value from -1 to + 1.",
+            "It represents the percent of variation in X that is explained by Y.",
+            "It represents the percent of variation in the error that is explained by Y.",
             "It is also called the coefficient of correlation.",
             "All of the options"
         ]
@@ -647,6 +667,40 @@ const dssa = [
     {
         text: "An aggressive decision maker would prefer the minimax regret criterion over the maximin criterion.",
         ans: false
+    },
+    {
+        text: "The payoff table always has more states of nature than decision alternatives.",
+        ans: false
+    },
+    {
+        text: "A high correlation always implies that one variable is causing a change in the other variable.",
+        ans: false
+    },
+    {
+        text: "Both the p-value for the F-test and r2 can be interpreted the same with multiple regression models as they are with simple linear models.",
+        ans: true
+    },
+    {
+        text: "The coefficient of determination takes on values between -1 and + 1.",
+        ans: false
+    },
+    {
+        text: "The coefficient of correlation takes on values between -1 and + 1.",
+        ans: true
+    },
+    {
+        text: "The coefficients of each independent variable in a multiple regression model represent slopes.",
+        ans: true
+    },
+    {
+        text: "A tracking signal was calculated for a particular set of demand forecasts. This tracking signal was positive. This would indicate that",
+        options: [
+            "demand is greater than the forecast.",
+            "demand is less than the forecast.",
+            "the MAD is negative.",
+            "demand is equal to the forecast.",
+            "None of the above"
+        ]
     }
 ]
 export default dssa;
