@@ -56,8 +56,8 @@ const compilers = [
     },
     {
         text: "In operator precedence parsing, precedence relations are defined",
-        options: ["For all pair of non-terminals",
-            "For all pair of terminals",
+        options: ["For all pair of terminals",
+            "For all pair of non-terminals",
             "To delimit the handle",
             "None of the mentioned",
             "For all terminals and non-terminals",
@@ -137,10 +137,10 @@ const compilers = [
     },
     {
         text: "Which of the following is not a feature of compiler?",
-        options: ["Scan the entire program first and translate into machine code",
+        options: ["Execution time is more",
+            "Scan the entire program first and translate into machine code",
             "To remove syntax errors",
             "Slow for debugging",
-            "Execution time is more",
         ]
     },
     {
@@ -187,8 +187,8 @@ const compilers = [
     },
     {
         text: "A language L from a grammar G = { VN, Σ, P, S} is?",
-        options: ["Set of symbols over VN",
-            "Set of symbols over Σ",
+        options: ["Set of symbols over Σ",
+            "Set of symbols over VN",
             "Set of symbols over P",
             "Set of symbols over S",
             "All of the mentioned",

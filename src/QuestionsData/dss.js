@@ -116,7 +116,7 @@ const dss = [
         text: "Which of these is not a property of statistical analysis?",
         options: ["Uses different types of data",
             "Start usually with a hypothesis",
-            "Statistician interpret their own results\r\nor decision maker",
+            "Statistician interpret their own results or decision maker",
             "Statisticians have to develop their own model"]
     },
     {
