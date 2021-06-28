@@ -135,6 +135,9 @@ header svg {
   border-left: 5px solid #00a1ff;
   border-radius: 10px;
 }
+.question {
+  white-space: pre-line;
+}
 
 .question-box .question {
   color: #00a1ff;

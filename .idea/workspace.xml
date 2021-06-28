@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb7671b2-d188-4da9-9ad8-cb949307dae2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/QuestionsData/compilers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestionList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestionList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestionBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestionBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/QuestionsData/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestionsData/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
@@ -119,6 +118,8 @@
       <recent name="D:\Programming\#Web\mcq-loader\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\#Web\mcq-loader-web\src\QuestionsData\images" />
+      <recent name="D:\Programming\#Web\mcq-loader-web\public\mcq\erp" />
       <recent name="D:\Programming\#Web\mcq-loader-web\src\QuestionsData" />
       <recent name="D:\Programming\#Web\mcq-loader\src" />
       <recent name="D:\Programming\#Web\mcq-loader" />
@@ -147,7 +148,8 @@
       <workItem from="1624037928459" duration="3989000" />
       <workItem from="1624308567549" duration="1901000" />
       <workItem from="1624719776341" duration="2892000" />
-      <workItem from="1624727914935" duration="7774000" />
+      <workItem from="1624727914935" duration="8187000" />
+      <workItem from="1624882229126" duration="2139000" />
     </task>
     <servers />
   </component>
