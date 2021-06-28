@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mcq-loader-web/static/css/main.bdaf3f16.chunk.css",
-    "main.js": "/mcq-loader-web/static/js/main.18bfc89c.chunk.js",
-    "main.js.map": "/mcq-loader-web/static/js/main.18bfc89c.chunk.js.map",
+    "main.js": "/mcq-loader-web/static/js/main.96378d21.chunk.js",
+    "main.js.map": "/mcq-loader-web/static/js/main.96378d21.chunk.js.map",
     "runtime-main.js": "/mcq-loader-web/static/js/runtime-main.5da834a9.js",
     "runtime-main.js.map": "/mcq-loader-web/static/js/runtime-main.5da834a9.js.map",
     "static/js/2.aceb4106.chunk.js": "/mcq-loader-web/static/js/2.aceb4106.chunk.js",
@@ -15,12 +15,13 @@
     "static/media/index.css": "/mcq-loader-web/static/media/Ubuntu.fbdecfce.ttf",
     "static/media/erp1.3c768447.png": "/mcq-loader-web/static/media/erp1.3c768447.png",
     "static/media/erp2.ca5729ad.png": "/mcq-loader-web/static/media/erp2.ca5729ad.png",
-    "static/media/erp4.4387f72d.png": "/mcq-loader-web/static/media/erp4.4387f72d.png"
+    "static/media/erp4.4387f72d.png": "/mcq-loader-web/static/media/erp4.4387f72d.png",
+    "static/media/erp5.654de02a.png": "/mcq-loader-web/static/media/erp5.654de02a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5da834a9.js",
     "static/js/2.aceb4106.chunk.js",
     "static/css/main.bdaf3f16.chunk.css",
-    "static/js/main.18bfc89c.chunk.js"
+    "static/js/main.96378d21.chunk.js"
   ]
 }
