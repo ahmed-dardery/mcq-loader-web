@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mcq-loader-web/static/css/main.bdaf3f16.chunk.css",
-    "main.js": "/mcq-loader-web/static/js/main.a1307d1d.chunk.js",
-    "main.js.map": "/mcq-loader-web/static/js/main.a1307d1d.chunk.js.map",
+    "main.css": "/mcq-loader-web/static/css/main.02f9422b.chunk.css",
+    "main.js": "/mcq-loader-web/static/js/main.2998004e.chunk.js",
+    "main.js.map": "/mcq-loader-web/static/js/main.2998004e.chunk.js.map",
     "runtime-main.js": "/mcq-loader-web/static/js/runtime-main.5da834a9.js",
     "runtime-main.js.map": "/mcq-loader-web/static/js/runtime-main.5da834a9.js.map",
     "static/js/2.aceb4106.chunk.js": "/mcq-loader-web/static/js/2.aceb4106.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.7d8287fc.chunk.js": "/mcq-loader-web/static/js/3.7d8287fc.chunk.js",
     "static/js/3.7d8287fc.chunk.js.map": "/mcq-loader-web/static/js/3.7d8287fc.chunk.js.map",
     "index.html": "/mcq-loader-web/index.html",
-    "static/css/main.bdaf3f16.chunk.css.map": "/mcq-loader-web/static/css/main.bdaf3f16.chunk.css.map",
+    "static/css/main.02f9422b.chunk.css.map": "/mcq-loader-web/static/css/main.02f9422b.chunk.css.map",
     "static/js/2.aceb4106.chunk.js.LICENSE.txt": "/mcq-loader-web/static/js/2.aceb4106.chunk.js.LICENSE.txt",
     "static/media/1.5009aea7.jpg": "/mcq-loader-web/static/media/1.5009aea7.jpg",
     "static/media/10.c2c364f5.jpg": "/mcq-loader-web/static/media/10.c2c364f5.jpg",
@@ -46,7 +46,7 @@
   "entrypoints": [
     "static/js/runtime-main.5da834a9.js",
     "static/js/2.aceb4106.chunk.js",
-    "static/css/main.bdaf3f16.chunk.css",
-    "static/js/main.a1307d1d.chunk.js"
+    "static/css/main.02f9422b.chunk.css",
+    "static/js/main.2998004e.chunk.js"
   ]
 }
