@@ -25,9 +25,8 @@
 }
 
 h1,
-span {font-family: Ubuntu, serif;}
-h2, p {
-    font-family: Texturina, sans-serif;}
+span, button {font-family: Ubuntu, serif;}
+h2, p {font-family: Texturina, sans-serif;}
 
 /*------------------------------------------------------------------------------------*/
 
@@ -61,7 +60,7 @@ header svg {
   padding: 30px;
 }
 
-#subject-box select, #search-box input {
+#search-box input {
   width: 100%;
   font-size: 18px;
   padding: 8px 16px;
@@ -71,8 +70,19 @@ header svg {
   border-radius: 5px;
 }
 
-#subject-box select:focus, #search-box input:focus {
+#search-box input:focus {
   border-width: 3px;
+}
+
+#subject-box select {
+    padding: 8px 10px;
+    border: none;
+    color: #fff;
+    background-color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 
 /*------------------------------------------------------------------------------------*/
@@ -133,6 +143,7 @@ header svg {
   margin-bottom: 20px;
 
   border-left: 5px solid #00a1ff;
+  border-right: 5px solid #00a1ff;
   border-radius: 10px;
 }
 .question {
@@ -145,6 +156,8 @@ header svg {
 
   padding-bottom: 5px;
 }
+
+.question-box image{max-width: 100%;}
 
 .question-box div {
   padding: 5px;
@@ -172,6 +185,7 @@ header svg {
 
 .question-box span {
   font-weight: 700;
+  margin-left: 5px;
 }
 
 .question-bad{
