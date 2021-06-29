@@ -22,7 +22,7 @@ class QuestionBox extends Component{
 
         return (
             <div className={"question-box" + extraClassBox}>
-                <h2 className="question">{question.text}</h2>
+                <h2 className="question">{(qidx+1) + ". " + question.text}</h2>
                 {question.img && <img src={question.img} alt={"Exhibit"}/>}
                 {question.options.map((v,i)=> <div key={i} onClick={()=>onTrigger(qidx, i)}>
                     <input className={extraClassRadio(i)} disabled={good !== null} type="radio"/>
