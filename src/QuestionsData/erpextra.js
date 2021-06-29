@@ -286,13 +286,6 @@ const erpextra = [
             "Any real number"]
     },
     {
-        text: "Your colleague, who is new to Hadoop, approaches you with a question. They want to know how\nbest to access their data. This colleague has a strong background in data flow languages and\nprogramming.\nWhich query interface would you recommend?",
-        options: ["Pig",
-            "Hive",
-            "Howl",
-            "HBase"]
-    },
-    {
         text: "The web analytics team uses Hadoop to process access logs. They now want to correlate this\ndata with structured user data residing in a production single-instance JDBC database. They\ncollaborate with the production team to import the data into Hadoop. Which tool should they use?",
         options: ["Sqoop",
             "Pig",
@@ -322,9 +315,9 @@ const erpextra = [
     },
     {
         text: "In MADlib what does MAD stand for?",
-        options: ["Mathematical Algorithms for Databases",
+        options: ["Magnetic,Agile,Deep",
+            "Mathematical Algorithms for Databases",
             "Machine Learning,Algorithms for Databases",
-            "Magnetic,Agile,Deep",
             "Modular,Accurate,Dependable"]
     },
     {
@@ -347,13 +340,6 @@ const erpextra = [
             "The mean of the series is close to 0.",
             "The series is normally distributed.",
             "There appears to be no apparent trend component."]
-    },
-    {
-        text: "What is an example of a null hypothesis?",
-        options: ["that a newly created model does not provide better predictions than the currently existing model",
-            "that a newly created model provides a prediction of a null sample mean",
-            "that a newly created model provides a prediction of a null population mean",
-            "that a newly created model provides a prediction that will be well fit to the null distribution"]
     },
     {
         text: "You have fit a decision tree classifier using 12 input variables. The resulting tree used 7 of the 12\nvariables, and is 5 levels deep. Some of the nodes contain only 3 data points. The AUC of the\nmodel is 0.85. What is your evaluation of this model?",
@@ -833,13 +819,6 @@ const erpextra = [
             "Increase the number of clusters"]
     },
     {
-        text: "How does Pig’s use of a schema differ from that of a traditional RDBMS?",
-        options: ["Pig's schema is optional",
-            "Pig's schema requires that the data is physically present when the schema is defined",
-            "Pig's schema is required for ETL",
-            "Pig's schema supports a single data type"]
-    },
-    {
         text: "You are provided four different datasets. Initial analysis on these datasets show that they have\nidentical mean, variance and correlation values. What should your next step in the analysis be?",
         options: ["Visualize the data to further explore the characteristics of each data set",
             "Select one of the four datasets and begin planning and building a model",
@@ -906,8 +885,8 @@ const erpextra = [
         text: "You have completed your model and are handing it off to be deployed in production. What should\nyou deliver to the production team, along with your commented code?",
         options: ["The production team needs to understand how your model will interact with the processes they already support. Give them documentation on expected model inputs and outputs, and guidance on error-handling.",
             "The production team are technical,and they need to understand how the processes that they support work,so give them the same presentation that you prepared for the analysts.",
-            "The production team supports the processes that run the organization,and they need context tovunderstand how your model interacts with the processes they already support. Give them thevsame presentation that you prepared for the project sponsor.",
-            "The production team supports the processes that run the organization,and they need context tovunderstand how your model interacts with the processes they already support. Give them the executive summary."]
+            "The production team supports the processes that run the organization,and they need context to understand how your model interacts with the processes they already support. Give them the same presentation that you prepared for the project sponsor.",
+            "The production team supports the processes that run the organization,and they need context to understand how your model interacts with the processes they already support. Give them the executive summary."]
     },
     {
         text: "While having a discussion with your colleague, this person mentions that they want to perform K-\nmeans clustering on text file data stored in HDFS.\nWhich tool would you recommend to this colleague?",
@@ -918,10 +897,10 @@ const erpextra = [
     },
     {
         text: "Which method is used to solve for coefficients b0, b1, .., bn in your linear regression model :\nY = b0 + b1x1+b2x2+....+bnxn",
-        options: ["Integer programming",
+        options: ["Ordinary Least squares",
+            "Integer programming",
             "Apriori Algorithm",
-            "Ridge and Lasso",
-            "Ordinary Least squares"]
+            "Ridge and Lasso"]
     },
     {
         text: "What describes a true limitation of Logistic Regression method?",
@@ -1002,10 +981,10 @@ const erpextra = [
     },
     {
         text: "Which of the following is an example of quasi-structured data?",
-        options: ["OLAP",
+        options: ["Clickstream data",
+            "OLAP",
             "OLTP",
-            "Customer record table",
-            "Clickstream data"]
+            "Customer record table",]
     },
     {
         text: "A Data Scientist is assigned to build a model from a reporting data warehouse. The warehouse\ncontains data collected from many sources and transformed through a complex, multi-stage ETL\nprocess. What is a concern the data scientist should have about the data?",
@@ -1027,13 +1006,6 @@ const erpextra = [
             "Database table",
             "Webserver log",
             "News article"]
-    },
-    {
-        text: "Your colleague, who is new to Hadoop, approaches you with a question. They want to know how\nbest to access their data. This colleague has previously worked extensively with SQL and\ndatabases.\nWhich query interface would you recommend?",
-        options: ["Hive",
-            "Pig",
-            "Howl",
-            "HBase"]
     },
     {
         text: "In linear regression, what indicates that an estimated coefficient is significantly different than zero?",
