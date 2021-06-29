@@ -7,7 +7,6 @@ import erp6 from './images/erp_extra/6.jpg';
 import erp7 from './images/erp_extra/7.jpg';
 import erp8 from './images/erp_extra/8.jpg';
 import erp9 from './images/erp_extra/9.jpg';
-import erp10 from './images/erp_extra/10.jpg';
 import erp11 from './images/erp_extra/11.jpg';
 import erp12 from './images/erp_extra/12.jpg';
 import erp13 from './images/erp_extra/13.jpg';
@@ -19,7 +18,6 @@ import erp18 from './images/erp_extra/18.jpg';
 import erp19 from './images/erp_extra/19.jpg';
 import erp20 from './images/erp_extra/20.jpg';
 import erp21 from './images/erp_extra/21.jpg';
-import erp22 from './images/erp_extra/22.jpg';
 import erp23 from './images/erp_extra/23.jpg';
 import erp24 from './images/erp_extra/24.jpg';
 import erp25 from './images/erp_extra/25.jpg';
@@ -70,14 +68,6 @@ const erpextra = [
         ]
     },
     {
-        text: "You have used k-means clustering to classify behavior of 100, 000 customers for a retail store. You decide to use household income, age, gender and yearly purchase amount as measures. You have chosen to use 8 clusters and notice that 2 clusters only have 3 customers assigned.  What should you do?",
-        options: ["Decrease the number of clusters",
-            "Identify additional measures to add to the analysis",
-            "Increase the number of clusters",
-            "Decrease the number of measures used",
-        ]
-    },
-    {
         text: "Your colleague, who is new to Hadoop, approaches you with a question. They want to know how best to access their data. This colleague has a strong background in data flow languages and programming.\nWhich query interface would you recommend?",
         options: ["Pig",
             "Hive",
@@ -99,14 +89,6 @@ const erpextra = [
             "Rows are grouped into an output row and the window function can only access the current row.",
             "Rows are grouped into an output row and the window function can access more than the current row.",
             "Rows retain their separate identities and the window function can only access the current row.",
-        ]
-    },
-    {
-        text: "For which class of problem is Map Reduce most suitable?",
-        options: ["Embarrassingly parallel",
-            "Non-overlapping queries",
-            "Simple marginalization tasks",
-            "Minimal result data",
         ]
     },
     {
@@ -237,7 +219,7 @@ const erpextra = [
             "K-means is to Naive Bayes"]
     },
     {
-        text: "Consider a database with 4 transactions:\nTransaction 1: {cheese, bread, milk}\nTransaction 2: {soda, bread, milk}\nTransaction 3: {cheese, bread}\nTransaction 4: {cheese, soda, juice}\nYou decide to run the association rules algorithm where minimum support is 50%. Which rule has\na confidence at least 50%?",
+        text: "Consider a database with 4 transactions:\nTransaction 1: {cheese, bread, milk}\nTransaction 2: {soda, bread, milk}\nTransaction 3: {cheese, bread}\nTransaction 4: {cheese, soda, juice}\nYou decide to run the association rules algorithm where minimum support is 50%. Which rule has\na confidence > 50%?",
         options: ["{cheese} => {bread}",
             "{juice} => {cheese}",
             "{milk} => {soda}",
@@ -252,10 +234,10 @@ const erpextra = [
     },
     {
         text: "Consider a database with 4 transactions:\nTransaction 1: {cheese, bread, milk}\nTransaction 2: {soda, bread, milk}\nTransaction 3: {cheese, bread}\nTransaction 4: {cheese, soda, juice}\nThe minimum support is 25%. Which rule has a confidence equal to 50%?",
-        options: ["{bread} => {cheese}",
+        options: ["{bread,milk} => {cheese}",
+            "{bread} => {cheese}",
             "{bread} => {milk}",
-            "{juice} => {soda}",
-            "{bread,milk} => {cheese}"]
+            "{juice} => {soda}"]
     },
     {
         text: "Under which circumstance do you need to implement N-fold cross-validation after creating a\nregression model?",
@@ -335,13 +317,6 @@ const erpextra = [
             "When some of the input variables might be correlated."]
     },
     {
-        text: "Before you build an ARMA model, how can you tell if your time series is weakly stationary?",
-        options: ["There appears to be a constant variance around a constant mean.",
-            "The mean of the series is close to 0.",
-            "The series is normally distributed.",
-            "There appears to be no apparent trend component."]
-    },
-    {
         text: "You have fit a decision tree classifier using 12 input variables. The resulting tree used 7 of the 12\nvariables, and is 5 levels deep. Some of the nodes contain only 3 data points. The AUC of the\nmodel is 0.85. What is your evaluation of this model?",
         options: ["The tree is probably overfit. Try fitting shallower trees and using an ensemble method.",
             "The AUC is high,and the small nodes are all very pure. This is an accurate model.",
@@ -385,7 +360,7 @@ const erpextra = [
     },
     {
         text: "You are testing two new weight-gain formulas for puppies. The test gives the results:\nControl group: 1% weight gain\nFormula A. 3% weight gain\nFormula B. 4% weight gain\nA one-way ANOVA returns a p-value = 0.027\nWhat can you conclude?",
-        options: ["Either Formula A or Formula B is effective at promoting weight gain.",
+        options: ["Neither Formula A or Formula B is effective at promoting weight gain.",
             "Formula B is more effective at promoting weight gain than Formula A.",
             "Formula A and Formula B are both effective at promoting weight gain.",
             "Formula A and Formula B are about equally effective at promoting weight gain."]
@@ -489,13 +464,6 @@ const erpextra = [
             "ratio"]
     },
     {
-        text: "In which phase of the analytic lifecycle would you expect to spend most of the project time?",
-        options: ["Communicate Results",
-            "Data preparation",
-            "Discovery",
-            "Operationalize"]
-    },
-    {
         text: "You are building a logistic regression model to predict whether a tax filer will be audited within the\nnext two years. Your training set population is 1000 filers. The audit rate in your training data is\n4.2%. What is the sum of the probabilities that the model assigns to all the filers in your training set\nthat have been audited?",
         options: ["42.0",
             "4.2",
@@ -509,13 +477,6 @@ const erpextra = [
             "Force all 15 variables into the model as independent variables",
             "Create interaction variables based only on variables A,B,and C",
             "Break variables A,B,and C into their own univariate models"]
-    },
-    {
-        text: "You have two tables of customers in your database. Customers in cust_table_1 were sent an e-\nmail promotion last year, and customers in cust_table_2 received a newsletter last year.\nCustomers can only be entered in once per table. You want to create a table that includes all\ncustomers, and any of the communications they received last year. Which type of join would you\nuse for this table?",
-        options: ["Full outer join",
-            "Inner join",
-            "Left outer join",
-            "Cross join"]
     },
     {
         text: "In which lifecycle stage are initial hypotheses formed?",
@@ -798,13 +759,6 @@ const erpextra = [
             "Discovery"]
     },
     {
-        text: "What is Hadoop?",
-        options: ["Java classes for HDFS types and MapReduce job management and HDFS",
-            "Java classes for HDFS types and MapReduce job management and the MapReduce paradigm",
-            "MapReduce paradigm and HDFS",
-            "MapReduce paradigm and massive unstructured data storage on commodity hardware"]
-    },
-    {
         text: "You are using k-means clustering to classify heart patients for a hospital. You have chosen Patient\nSex, Height, Weight, Age and Income as measures and have used 3 clusters. When you create a\npair-wise plot of the clusters, you notice that there is significant overlap between the clusters.\nWhat should you do?",
         options: ["Decrease the number of clusters",
             "Remove one of the measures",
@@ -852,13 +806,6 @@ const erpextra = [
             "Naive Bayesian",
             "Logistic Regression",
             "Association Rules"]
-    },
-    {
-        text: "How are window functions different from regular aggregate functions?",
-        options: ["Rows retain their separate identities and the window function can access more than the current row.",
-            "Rows are grouped into an output row and the window function can access more than the current row.",
-            "Rows retain their separate identities and the window function can only access the current row.",
-            "Rows are grouped into an output row and the window function can only access the current row"]
     },
     {
         text: "Consider these itemsets:\n(hat, scarf, coat)\n(hat, scarf, coat, gloves)\n(hat, scarf, gloves)\n(hat, gloves)\n(scarf, coat, gloves)\nWhat is the confidence of the rule (hat, scarf) -> gloves?",
@@ -959,13 +906,6 @@ const erpextra = [
             "When the data cannot easily be sorted"]
     },
     {
-        text: "In the MapReduce framework, what is the purpose of the Reduce function?",
-        options: ["It aggregates the results of the Map function and generates processed output",
-            "It distributes the input to multiple nodes for processing",
-            "It writes the output of the Map function to storage",
-            "It breaks the input into smaller components and distributes to other nodes in the cluster"]
-    },
-    {
         text: "Which of the following is an example of quasi-structured data?",
         options: ["Clickstream data",
             "OLAP",
@@ -1016,9 +956,9 @@ const erpextra = [
     },
     {
         text: "What is the mandatory Clause that must be included when using Window functions?",
-        options: ["PARTITION BY",
+        options: ["OVER",
+            "PARTITION BY",
             "RANK",
-            "OVER",
             "RANK BY"]
     },
     {
@@ -1142,14 +1082,6 @@ const erpextra = [
             "Tree D"]
     },
     {
-        img: erp10,
-        text:"In the Exhibit, the table shows the values for the input Boolean attributes 'A', 'B', and 'C'. It also\nshows the values for the output attribute 'class'. Which decision tree is valid for the data?",
-        options: ["Tree B",
-            "Tree A",
-            "Tree C",
-            "Tree D"]
-    },
-    {
         img: erp11,
         text:"You are assigned to do an end of the year sales analysis of 1, 000 different products, based on\nthe transaction table. Which column in the end of year report requires the use of a window\nfunction?",
         options: ["Total Sales to Date",
@@ -1236,14 +1168,6 @@ const erpextra = [
             "Document A",
             "Document B",
             "Document D"]
-    },
-    {
-        img: erp22,
-        text:"What provides the decision tree for predicting whether or not someone is a good or bad credit risk.\nWhat would be the assigned probability, p(good), of a single male with no known savings?",
-        options: ["0.83",
-            "0",
-            "0.498",
-            "0.6"]
     },
     {
         img: erp23,
