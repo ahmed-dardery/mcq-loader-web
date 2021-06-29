@@ -260,8 +260,8 @@ const erp3amaly = [
     },
     {
         text: "What makes data stationary while using time series analysis?",
-        options: ["Seasonal adjustment",
-            "De-trending",
+        options: ["De-trending",
+            "Seasonal adjustment",
             "ACF",
             "PACF",
         ]
@@ -300,14 +300,6 @@ const erp3amaly = [
         ]
     },
     {
-        text: "What is a primary consideration when implementing an Apriori algorithm as a model?",
-        options: ["It is very complicated, so it is not easy to implement",
-            "It is not easy to parallelize given its level of complexity",
-            "It does not find any coincidental relationships",
-            "It has exponential time complexity, so multiple database scans are needed",
-        ]
-    },
-    {
         text: "Which text strings are matched by the regular expression '^green*'?",
         options: ["Any string starting with green",
             "Any string with green in the middle",
@@ -333,10 +325,10 @@ const erp3amaly = [
     },
     {
         text: "What is a primary consideration when implementing an Apriori algorithm as a model?",
-        options: ["It is not easy to parallelize given its level of complexity",
+        options: ["It has exponential time complexity, so multiple database scans are needed",
+            "It is not easy to parallelize given its level of complexity",
             "It is very complicated, so it is not easy to implement",
             "It does not find any coincidental relationships",
-            "It has exponential time complexity, so multiple database scans are needed",
         ]
     },
     {
