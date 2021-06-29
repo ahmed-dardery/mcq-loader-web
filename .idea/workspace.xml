@@ -2,10 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb7671b2-d188-4da9-9ad8-cb949307dae2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/QuestionsData/erpextra.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestionsData/images/erp_extra/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestionsData/erp3amaly.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestionsData/erp3amaly.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestionsData/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestionsData/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestionsData/erpextra.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestionsData/erpextra.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,11 +145,11 @@
       <recent name="D:\Programming\#Web\mcq-loader\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\#Web\mcq-loader-web\src\QuestionsData\images\erp_extra" />
       <recent name="D:\Programming\#Web\mcq-loader-web\src\QuestionsData\images\erp" />
       <recent name="D:\Programming\#Web\mcq-loader-web\src\QuestionsData\images" />
       <recent name="D:\Programming\#Web\mcq-loader-web\public\mcq\erp" />
       <recent name="D:\Programming\#Web\mcq-loader-web\src\QuestionsData" />
-      <recent name="D:\Programming\#Web\mcq-loader\src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -151,7 +178,7 @@
       <workItem from="1624727914935" duration="8187000" />
       <workItem from="1624882229126" duration="2461000" />
       <workItem from="1624919957572" duration="891000" />
-      <workItem from="1624965440613" duration="3660000" />
+      <workItem from="1624965440613" duration="6783000" />
     </task>
     <servers />
   </component>
