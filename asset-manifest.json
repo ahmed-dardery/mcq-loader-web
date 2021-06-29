@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mcq-loader-web/static/css/main.bdaf3f16.chunk.css",
-    "main.js": "/mcq-loader-web/static/js/main.d6b98cf9.chunk.js",
-    "main.js.map": "/mcq-loader-web/static/js/main.d6b98cf9.chunk.js.map",
+    "main.js": "/mcq-loader-web/static/js/main.d101a792.chunk.js",
+    "main.js.map": "/mcq-loader-web/static/js/main.d101a792.chunk.js.map",
     "runtime-main.js": "/mcq-loader-web/static/js/runtime-main.5da834a9.js",
     "runtime-main.js.map": "/mcq-loader-web/static/js/runtime-main.5da834a9.js.map",
     "static/js/2.aceb4106.chunk.js": "/mcq-loader-web/static/js/2.aceb4106.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.5da834a9.js",
     "static/js/2.aceb4106.chunk.js",
     "static/css/main.bdaf3f16.chunk.css",
-    "static/js/main.d6b98cf9.chunk.js"
+    "static/js/main.d101a792.chunk.js"
   ]
 }
