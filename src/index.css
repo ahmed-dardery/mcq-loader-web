@@ -190,9 +190,11 @@ header svg {
 
 .question-bad{
   border-left-color: #f00;
+  border-right-color: #f00;
 }
 .question-good{
   border-left-color: #03c603;
+  border-right-color: #03c603;
 }
 
 .question-count{
