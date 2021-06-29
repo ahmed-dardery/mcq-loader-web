@@ -83,14 +83,6 @@ const erp3amaly = [
         ]
     },
     {
-        text: "Into which four levels of measurement can data be classified?",
-        options: ["Ordinal, nominal, ratio, and interval",
-            "Ordinal, numeric, ratio, and integer",
-            "Object, nominal, ratio, and integer",
-            "Object, numeric, ratio, and interval",
-        ]
-    },
-    {
         text: "In R, which type of graph should be used if there are too many records to obseive the structure of a scatterplot?",
         options: ["Hexbin plot",
             "Multiple pairwise plots",
@@ -219,7 +211,7 @@ const erp3amaly = [
         ]
     },
     {
-        text: "What does the Data Analytics Lifecycle help you do when working on a Big Data project? Review Later",
+        text: "What does the Data Analytics Lifecycle help you do when working on a Big Data project?",
         options: ["Provide project guidelines",
             "Design the data warehouse",
             "Visualize the data",
@@ -235,7 +227,7 @@ const erp3amaly = [
         ]
     },
     {
-        text: "Which type of graph is recommended for visualizing a single variable? CJ Review Later",
+        text: "Which type of graph is recommended for visualizing a single variable?",
         options: ["Histogram",
             "Any 3-D plot	",
             "Hexbin plot",
@@ -317,9 +309,9 @@ const erp3amaly = [
     },
     {
         text: "A database application user wants to combine two tables using a common field. The user uses SQL to compare each row of table 'right' to each row of table 'left'. Only the matching rows are returned as part of the result set. Which SQL operation is being used?",
-        options: ["Full outer join",
+        options: ["Inner join",
+            "Full outer join",
             "Right outer join",
-            "Inner join",
             "Cross join",
         ]
     },
