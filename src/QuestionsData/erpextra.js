@@ -784,13 +784,6 @@ const erpextra = [
             "HBase"]
     },
     {
-        text: "Your customer provided you with 2, 000 unlabeled records and asked you to separate them into\nthree groups. What is the correct analytical method to use?",
-        options: ["K-means clustering",
-            "Linear regression",
-            "Naive Bayesian classification",
-            "Logistic regression"]
-    },
-    {
         text: "You are performing a market basket analysis using the Apriori algorithm. Which measure is a ratio\ndescribing the how many more times two items are present together than would be expected if\nthose two items are statistically independent?",
         options: ["Lift",
             "Leverage",
@@ -957,13 +950,6 @@ const erpextra = [
             "Operates on queries and potentially decreases the number of rows",
             "Operates on tables and potentially decreases the number of columns",
             "Operates on both tables and queries and potentially increases both the number of rows and columns"]
-    },
-    {
-        text: "You have run the association rules algorithm on your data set, and the two rules {banana, apple}\n=> {grape} and {apple, orange}=> {grape} have been found to be relevant. What else must be\ntrue?",
-        options: ["{grape,apple,orange} must be a frequent itemset.",
-            "{banana,apple,grape,orange} must be a frequent itemset.",
-            "{grape} => {banana,apple} must be a relevant rule.",
-            "{banana,apple} => {orange} must be a relevant rule."]
     },
     {
         text: "When would you use a Wilcoxson Rank Sum test?",
